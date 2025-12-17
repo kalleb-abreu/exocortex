@@ -2,4 +2,12 @@ site_name: ExoCortex
 theme: material
 nav:
   - Home: index.md
-  - About: about.md
+  - Docker: docker/index.md
+  - Programming Languages:
+      - Go: programming_languages/go/index.md
+      - Python:
+          - Introduction: programming_languages/python/introduction.md
+          - OOP:
+              - Classes: programming_languages/python/oop/classes.md
+          - Package Managers:
+              - uv: programming_languages/python/package_managers/uv.md
